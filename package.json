@@ -1,6 +1,6 @@
 {
   "name": "@darkobits/semantic-release-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "Hippocratic",
   "author": "darkobits",
   "repository": {
@@ -10,5 +10,9 @@
   "main": "semantic-release-config.js",
   "peerDependencies": {
     "@darkobits/conventional-changelog-preset": "~0.1.0"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1"
   }
 }
