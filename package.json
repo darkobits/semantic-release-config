@@ -1,15 +1,16 @@
 {
   "name": "@darkobits/semantic-release-config",
-  "version": "0.1.1",
-  "license": "Hippocratic",
+  "version": "0.2.0",
   "author": "darkobits",
+  "license": "Hippocratic",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/darkobits/semantic-release-config"
   },
   "main": "semantic-release-config.js",
   "peerDependencies": {
-    "@darkobits/conventional-changelog-preset": "~0.1.0"
+    "@darkobits/conventional-changelog-preset": "~0.2.0"
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",

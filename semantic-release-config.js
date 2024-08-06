@@ -1,6 +1,6 @@
-const { NPM_TOKEN, GH_TOKEN } = process.env;
+const { NPM_TOKEN, GH_TOKEN } = process.env
 
-module.exports = {
+export default {
   branches: [
     { name: 'master', channel: 'latest' },
     { name: 'beta', channel: 'beta', prerelease: 'beta' }
@@ -36,4 +36,4 @@ module.exports = {
       message: 'chore(release): ${nextRelease.version}\n[skip ci]'
     }]
   ].filter(Boolean)
-};
+}
